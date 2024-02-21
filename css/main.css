@@ -51,6 +51,23 @@ span {
   color: var(--main-color);
 }
 
+span a:visited {
+  color: var(--main-color);
+}
+
+span a:hover {
+  color: purple;
+}
+
+span a:active {
+  color: red;
+}
+
+span a:link,
+span a:visited {
+  text-decoration: none;
+}
+
 .navlist {
   display: flex;
 }
